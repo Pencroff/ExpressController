@@ -1,0 +1,33 @@
+{
+  "name": "ExpressController",
+  "version": "0.0.1",
+  "description": "ExpressController - controller for web applications based on express 4",
+  "main": "ExpressController.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pencroff/ExpressController.git"
+  },
+  "keywords": [
+    "Controller",
+    "Express 4",
+    "Controller for Express 4"
+  ],
+  "author": "Pencroff",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "b377c7fc1885ab3afec4ddaa73992f58be586cfb",
+  "devDependencies": {
+    "mocha": "~1.19.0",
+    "chai": "~1.9.1",
+    "supertest": "~0.13.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "mocha --bail --ui bdd --reporter spec -- test/*.js"
+  },
+  "dependencies": {
+    "express": ">=4.0.0"
+  }
+}

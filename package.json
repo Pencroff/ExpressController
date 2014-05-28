@@ -16,6 +16,10 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "b377c7fc1885ab3afec4ddaa73992f58be586cfb",
+  "dependencies": {
+    "express": ">=4.0.0",
+    "mongoose": "~3.8.11"
+  },
   "devDependencies": {
     "mocha": "~1.19.0",
     "chai": "~1.9.1",
@@ -26,8 +30,5 @@
   },
   "scripts": {
     "test": "mocha --bail --ui bdd --reporter spec -- test/*.js"
-  },
-  "dependencies": {
-    "express": ">=4.0.0"
   }
 }
